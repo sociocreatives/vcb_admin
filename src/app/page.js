@@ -22,16 +22,16 @@ export default function Home() {
           src="/assets/images/vcblogo.svg"
           alt="vicwhite"
         />
-        <h4>LOGIN</h4>
-        <p>Sign in to continue. Your password is yours, do not share it with anyone.</p>
-        <form action="" className="loginform">
-          <div className="inputbox"><input type="text" placeholder="User ID" name="userid" /><FaRegUserCircle /></div>
-          <div className="inputbox"><input type="password" placeholder="Password" name="password" /><MdOutlineLock /></div>
 
-          <Link href="/dashboard"><button type="submit">LOGIN</button></Link>
-        </form>
-    
-      </div>
+          <h4>BANK ADMIN LOGIN</h4>
+          <p>Sign in to continue. Your password is yours, do not share it with anyone.</p>
+          <form action="" className="loginform">
+            <div className="inputbox"><input type="text" placeholder="User ID" name="userid" /><FaRegUserCircle /></div>
+            <div className="inputbox"><input type="password" placeholder="Password" name="password" /><MdOutlineLock /></div>
+
+            <Link href="/dashboard"><button type="submit">LOGIN</button></Link>
+          </form>
+        </div>
     </section>
   );
 }
