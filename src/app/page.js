@@ -30,10 +30,7 @@ export default function Home() {
 
           <Link href="/dashboard"><button type="submit">LOGIN</button></Link>
         </form>
-        <div className="forgot">
-        <p>Forgot Password</p>
-        <p className="need">Need Help?</p>
-        </div>
+    
       </div>
     </section>
   );
